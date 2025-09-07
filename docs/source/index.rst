@@ -1,22 +1,22 @@
-Welcome to Lumache's documentation!
-===================================
+Naturalcc 文档
+==============
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+.. image:: /_static/naturalcc_logo.png
+   :alt: Naturalcc
+   :align: center
+   :width: 400px
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+欢迎使用 **Naturalcc** 文档。下面是文档导航：
 
 .. toctree::
+   :maxdepth: 2
+   :caption: 目录
 
-   usage
-   api
+   overview
+   tutorial
+   repo_context
+   c_graph
+   instruction_finetune
+   tokenizer_toolbox
+
+快速开始请先参阅 ``tutorial.rst``。
